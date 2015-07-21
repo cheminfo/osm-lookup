@@ -81,7 +81,7 @@ function getResult(result, options) {
     if (! options.field) { // we return a JSON with all the information
         return {
             mimetype:"application/json",
-            value: entry
+            content: entry
         }
     }
 
@@ -90,31 +90,31 @@ function getResult(result, options) {
         case 'molfile':
             return {
                 mimetype:"chemical/x-mdl-molfile",
-                value: entry.mol
+                content: entry.mol
             }
             break;
         case 'smiles':
             return {
                 mimetype:"chemical/x-daylight-smiles",
-                value: entry.smiles
+                content: entry.smiles
             }
             break;
         case 'inchi':
             return {
                 mimetype:"chemical/x-inchi",
-                value: entry.InChI
+                content: entry.InChI
             }
             break;
         default:
             return {
-                mimetype:"application/json",
-                value: entry[options.field.toLowerCase()]
+                mimetype:"text/text",
+                content: entry[options.field]
             }
             break;
     }
     return {
         mimetype:"application/json",
-        value: {}
+        content: {}
     }
     // we return a specific field
 
