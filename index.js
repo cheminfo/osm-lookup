@@ -73,7 +73,7 @@ function parseTabDelimited(str) {
 function getResult(result, options) {
     if (! options || ! options.id) return {
         mimetype:"application/json",
-        value: result
+        content: result
     };
 
     var entry=getEntry(result, options.id);
