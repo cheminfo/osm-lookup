@@ -1,0 +1,18 @@
+{
+  "name": "osm-lookup",
+  "version": "1.0.0",
+  "description": "Lookup data in the OSM spreadsheet",
+  "main": "index.js",
+  "keywords":["osm","lookup","Open Source Malaria","open","source","malaria"],
+  "dependencies": {
+    "openchemlib": "^3.0.0-beta4",
+    "papaparse": "^4.1.1",
+    "requesty": "^0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luc Patiny",
+  "license": "MIT"
+}
