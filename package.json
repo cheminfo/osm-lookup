@@ -1,6 +1,6 @@
 {
   "name": "osm-lookup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lookup data in the OSM spreadsheet",
   "main": "index.js",
   "keywords":["osm","lookup","Open Source Malaria","open","source","malaria"],
