@@ -1,6 +1,6 @@
 {
   "name": "osm-lookup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lookup data in the OSM spreadsheet",
   "main": "index.js",
   "keywords":["osm","lookup","Open Source Malaria","open","source","malaria"],
@@ -13,6 +13,7 @@
     "url": "https://github.com/cheminfo/osm-lookup/issues"
   },
   "homepage": "https://github.com/cheminfo/osm-lookup",
+  "repository": "https://github.com/cheminfo/osm-lookup",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
